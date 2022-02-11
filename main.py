@@ -25,7 +25,13 @@ def calcular_area_quadrado(num1):
     return num1 * num1
 
 def calcular_area_circulo(raio):
-    return 3.14 * raio ** 2
+    try:
+        return 3.14 * raio ** 2
+    except TypeError:
+        return 'Falha no calculo'
+
+def calcular_area_do_paralelograma(largura, comprimento, altura):
+    return largura * comprimento * altura
 
 if __name__ == '__main__':
     soma = somar_dois_numeros(5, 7)

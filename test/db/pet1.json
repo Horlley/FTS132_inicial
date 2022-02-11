@@ -1,0 +1,18 @@
+{
+  "id": 10009,
+  "category": {
+    "id": 1,
+    "name": "gato"
+  },
+  "name": "Frajola",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "vacinado"
+    }
+  ],
+  "status": "available"
+}
